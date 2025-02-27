@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		811ADC6C2D7003B1004A317C /* SpeedMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811ADC682D7003B1004A317C /* SpeedMeasurementView.swift */; };
+		811ADC6D2D7003B1004A317C /* SpeedingFineCalculatorMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811ADC6A2D7003B1004A317C /* SpeedingFineCalculatorMVVMApp.swift */; };
+		811ADC6E2D7003B1004A317C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811ADC652D7003B1004A317C /* Preview Assets.xcassets */; };
+		811ADC6F2D7003B1004A317C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811ADC672D7003B1004A317C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		811ADC532D6FFD5A004A317C /* SpeedingFineCalculatorMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedingFineCalculatorMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		811ADC652D7003B1004A317C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		811ADC672D7003B1004A317C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		811ADC682D7003B1004A317C /* SpeedMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeasurementView.swift; sourceTree = "<group>"; };
+		811ADC6A2D7003B1004A317C /* SpeedingFineCalculatorMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedingFineCalculatorMVVMApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		811ADC552D6FFD5A004A317C /* SpeedingFineCalculatorMVVM */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SpeedingFineCalculatorMVVM;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		811ADC502D6FFD5A004A317C /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		811ADC4A2D6FFD5A004A317C = {
 			isa = PBXGroup;
 			children = (
-				811ADC552D6FFD5A004A317C /* SpeedingFineCalculatorMVVM */,
+				811ADC6B2D7003B1004A317C /* SpeedingFineCalculatorMVVM */,
 				811ADC542D6FFD5A004A317C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,49 @@
 				811ADC532D6FFD5A004A317C /* SpeedingFineCalculatorMVVM.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		811ADC662D7003B1004A317C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				811ADC652D7003B1004A317C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		811ADC6B2D7003B1004A317C /* SpeedingFineCalculatorMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				811ADC6A2D7003B1004A317C /* SpeedingFineCalculatorMVVMApp.swift */,
+				811ADC712D7003CA004A317C /* Model */,
+				811ADC722D7003CE004A317C /* ViewModels */,
+				811ADC702D7003B6004A317C /* Views */,
+				811ADC662D7003B1004A317C /* Preview Content */,
+				811ADC672D7003B1004A317C /* Assets.xcassets */,
+			);
+			path = SpeedingFineCalculatorMVVM;
+			sourceTree = "<group>";
+		};
+		811ADC702D7003B6004A317C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				811ADC682D7003B1004A317C /* SpeedMeasurementView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		811ADC712D7003CA004A317C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		811ADC722D7003CE004A317C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +105,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				811ADC552D6FFD5A004A317C /* SpeedingFineCalculatorMVVM */,
 			);
 			name = SpeedingFineCalculatorMVVM;
 			packageProductDependencies = (
@@ -109,6 +152,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811ADC6E2D7003B1004A317C /* Preview Assets.xcassets in Resources */,
+				811ADC6F2D7003B1004A317C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811ADC6C2D7003B1004A317C /* SpeedMeasurementView.swift in Sources */,
+				811ADC6D2D7003B1004A317C /* SpeedingFineCalculatorMVVMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

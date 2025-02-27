@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SpeedMeasurementView.swift
 //  SpeedingFineCalculatorMVVM
 //
 //  Created by Russell Gordon on 2025-02-26.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SpeedMeasurementView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    SpeedMeasurementView()
 }

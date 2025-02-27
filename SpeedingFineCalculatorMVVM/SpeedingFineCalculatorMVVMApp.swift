@@ -11,7 +11,7 @@ import SwiftUI
 struct SpeedingFineCalculatorMVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SpeedMeasurementView()
         }
     }
 }
