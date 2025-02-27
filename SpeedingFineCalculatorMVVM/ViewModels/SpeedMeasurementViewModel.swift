@@ -8,6 +8,7 @@
 import Foundation
 
 // VIEW MODEL
+@Observable
 class SpeedMeasurementViewModel {
     
     // MARK: Stored properties
