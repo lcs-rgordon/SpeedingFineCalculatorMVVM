@@ -12,6 +12,7 @@ import Foundation
 class SpeedMeasurementViewModel {
     
     // MARK: Stored properties
+    var resultHistory: [SpeedMeasurement] = []
     var providedSpeedLimit: String
     var providedSpeedOfCar: String
     var recoverySuggestion: String
@@ -46,4 +47,14 @@ class SpeedMeasurementViewModel {
         self.recoverySuggestion = recoverySuggestion
     }
     
+    // MARK: Function(s)
+    func saveResult() {
+        
+        if let measurement = self.measurement {
+            
+            self.resultHistory.insert(measurement, at: 0)
+            
+        }
+        
+    }
 }

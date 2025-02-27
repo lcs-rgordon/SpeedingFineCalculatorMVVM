@@ -8,9 +8,10 @@
 import Foundation
 
 // MODEL
-struct SpeedMeasurement {
+struct SpeedMeasurement: Identifiable {
     
     // MARK: Stored properties
+    let id = UUID()
     let speedLimit: Int
     let speedOfCar: Int
     

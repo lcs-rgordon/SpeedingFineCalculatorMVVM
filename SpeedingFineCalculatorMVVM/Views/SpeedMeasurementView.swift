@@ -21,11 +21,23 @@ struct SpeedMeasurementView: View {
                 
                 VStack(spacing: 0) {
                     
-                    Text(measurement.report)
+                    SpeedMeasurementItemView(measurement: measurement)
                         .font(.title2)
                     
+                    // Add a button so that the result can be saved
+                    Button {
+                        viewModel.saveResult()
+                        // DEBUG: Show how many items are in the resultHistory array
+                        print("There are \(viewModel.resultHistory.count) elements in the resultHistory array.")
+                    } label: {
+                        Text("Save")
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .padding(.vertical)
+
+                    
                 }
-                .frame(height: 200)
+                .frame(height: 250)
                 
             } else {
                 
@@ -34,7 +46,7 @@ struct SpeedMeasurementView: View {
                     systemImage: "gear.badge.questionmark",
                     description: Text(viewModel.recoverySuggestion)
                 )
-                    .frame(height: 200)
+                    .frame(height: 250)
 
             }
             
@@ -44,8 +56,24 @@ struct SpeedMeasurementView: View {
 
             TextField("Enter the speed of the car", text: $viewModel.providedSpeedOfCar)
                 .textFieldStyle(.roundedBorder)
+            
+            HStack {
+                Text("History")
+                    .font(.title2)
+                    .bold()
+                
+                Spacer()
+            }
+            .padding(.top)
                         
-            Spacer()
+            // Iterate over the list of results
+            List(viewModel.resultHistory) { currentResult in
+                
+                SpeedMeasurementItemView(measurement: currentResult)
+
+            }
+            .listStyle(.plain)
+
         }
         .navigationTitle("Photo Radar Prototype")
         .padding()

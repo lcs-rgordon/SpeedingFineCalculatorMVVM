@@ -13,6 +13,7 @@
 		811ADC6F2D7003B1004A317C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811ADC672D7003B1004A317C /* Assets.xcassets */; };
 		811ADC742D700428004A317C /* SpeedMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811ADC732D700428004A317C /* SpeedMeasurement.swift */; };
 		811ADC762D700454004A317C /* SpeedMeasurementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811ADC752D700454004A317C /* SpeedMeasurementViewModel.swift */; };
+		811ADC782D7006D0004A317C /* SpeedMeasurementItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811ADC772D7006D0004A317C /* SpeedMeasurementItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		811ADC6A2D7003B1004A317C /* SpeedingFineCalculatorMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedingFineCalculatorMVVMApp.swift; sourceTree = "<group>"; };
 		811ADC732D700428004A317C /* SpeedMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeasurement.swift; sourceTree = "<group>"; };
 		811ADC752D700454004A317C /* SpeedMeasurementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeasurementViewModel.swift; sourceTree = "<group>"; };
+		811ADC772D7006D0004A317C /* SpeedMeasurementItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeasurementItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				811ADC682D7003B1004A317C /* SpeedMeasurementView.swift */,
+				811ADC772D7006D0004A317C /* SpeedMeasurementItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				811ADC762D700454004A317C /* SpeedMeasurementViewModel.swift in Sources */,
 				811ADC742D700428004A317C /* SpeedMeasurement.swift in Sources */,
 				811ADC6D2D7003B1004A317C /* SpeedingFineCalculatorMVVMApp.swift in Sources */,
+				811ADC782D7006D0004A317C /* SpeedMeasurementItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
