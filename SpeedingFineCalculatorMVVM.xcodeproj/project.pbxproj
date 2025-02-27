@@ -11,6 +11,7 @@
 		811ADC6D2D7003B1004A317C /* SpeedingFineCalculatorMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811ADC6A2D7003B1004A317C /* SpeedingFineCalculatorMVVMApp.swift */; };
 		811ADC6E2D7003B1004A317C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811ADC652D7003B1004A317C /* Preview Assets.xcassets */; };
 		811ADC6F2D7003B1004A317C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811ADC672D7003B1004A317C /* Assets.xcassets */; };
+		811ADC742D700428004A317C /* SpeedMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811ADC732D700428004A317C /* SpeedMeasurement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		811ADC672D7003B1004A317C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		811ADC682D7003B1004A317C /* SpeedMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeasurementView.swift; sourceTree = "<group>"; };
 		811ADC6A2D7003B1004A317C /* SpeedingFineCalculatorMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedingFineCalculatorMVVMApp.swift; sourceTree = "<group>"; };
+		811ADC732D700428004A317C /* SpeedMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeasurement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		811ADC712D7003CA004A317C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				811ADC732D700428004A317C /* SpeedMeasurement.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				811ADC6C2D7003B1004A317C /* SpeedMeasurementView.swift in Sources */,
+				811ADC742D700428004A317C /* SpeedMeasurement.swift in Sources */,
 				811ADC6D2D7003B1004A317C /* SpeedingFineCalculatorMVVMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
